@@ -1,0 +1,46 @@
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\rusu0\OneDrive\デスクトップ\kadai_073
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/03/24     11:36                git_challenge       
+
+
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073> cd git_challenge
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_challenge> git init
+Initialized empty Git repository in C:/Users/rusu0/OneDrive/デスクトッ プ/kadai_073/git_challenge/.git/
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_challenge>  hello_world.txt
+
+
+    ディレクトリ: C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_c 
+    hallenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/03/24     11:45              0 hello_world.txt      
+
+
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_challenge>       
+ git add hello_world.txt
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_challenge> git commit -m "ファイル内にHello,world!という内容を含めて追加"
+[main (root-commit) 20b2317] ファイル内にHello,world!という内容を含めて追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt                              git add hello_world.txt\OneDrive\デスクトップ\kadai_073\git_challenge>       
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_challenge> git log                                       
+commit 20b23170cb446243209d62c0d825857e72472770 (HEAD -> main)
+Author: neon-zz <rusu036122@gmail.com>
+Date:   Mon Mar 24 11:49:09 2025 +0900
+
+    ファイル内にHello,world!という内容を含めて追加
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_challenge> git add hello_world.txt
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_challenge> git commit -m "こんにちは、世界!という日本語挨拶を追加"
+[main 2ea5543] こんにちは、世界!という日本語挨拶を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_challenge> git log --oneline
+2ea5543 (HEAD -> main) こんにちは、世界!という日本語挨拶を追加
+20b2317 ファイル内にHello,world!という内容を含めて追加
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_073\git_challenge>   
