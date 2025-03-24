@@ -1,0 +1,39 @@
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\rusu0\OneDrive\デスクトップ\kadai_73        
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/03/24      9:24                git_challenge        
+
+
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73> cd git_challenge
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73\git_challenge> git init
+Initialized empty Git repository in C:/Users/rusu0/OneDrive/デスクトッ プ/kadai_73/git_challenge/.git/
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73\git_challenge> New-Item hello_world.txt
+
+
+    ディレクトリ: C:\Users\rusu0\OneDrive\デスクトップ\kadai_73\git_ch 
+    allenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        2025/03/24      9:26              0 hello_world.txt      
+
+
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73\git_challenge> git add hello_world.txt
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73\git_challenge> git commit -m "Hello,world!を追加"            
+[main (root-commit) 420d60a] Hello,world!を追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+ PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73\git_challenge> git add hello_world.txt
+ PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73\git_challenge> git commit -m "日本語の挨拶追加"
+[main 916dbec] 日本語の挨拶追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73\git_challenge> git log --oneline
+916dbec (HEAD -> main) 日本語の挨拶追加
+420d60a Hello,world!を追加
+PS C:\Users\rusu0\OneDrive\デスクトップ\kadai_73\git_challenge>
